@@ -3,6 +3,6 @@ Example of ember cli illustrating an issue with env vars in production environme
 
 To replicate the issue, do the following commands :
 * `npm install && bower install`
-* `ember build`
+* `ember build -prod`
 * `EXAMPLE_VAR=test ember serve -prod`
 * You should see an error with a undefined EXAMPLE_VAR
